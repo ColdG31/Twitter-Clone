@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter-ish Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="container display-flex">
+        <!-- Left side menu -->
+        <div class="sidemenu">
+            <div class="logo">
+                <img src="./img/logo.jpg" alt="X Logo">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Lists</a></li>
+                <li><a href="#">Bookmarks</a></li>
+                <li><a href="#">Communities</a></li>
+                <li><a href="#">Premium</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+            <button class="post-button">Post</button>
+            <div class="user-profile display-flex">
+                <div class="avatar">EM</div>
+                <div>
+                    <p class="name">Elon Musk</p>
+                    <p class="username">@elonmusk</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feed -->
+        <div class="feed">
+            <div class="tab-list display-flex">
+                <h2>For You</h2>
+                <h2>Following</h2>
+            </div>
+            <div class="tweet-box">
+                <textarea placeholder="What is happening?!"></textarea>
+                <button class="tweet-button">Post</button>
+            </div>
+            <div class="post">
+                <h2>Counter Strike 2 Major Winners</h2>
+                <p>NAVI are the first team to win a Major in CS2. </p>
+                <img src="./img/champions.jpg" alt="Major Winner">
+            </div>
+            <div class="post">
+                <h2>Grand Theft Auto VI</h2>
+                <p>Here we go again. Watch Grand Theft Auto VI Trailer 1 Now on YouTube</p>
+                <img src="./img/gta6.png" alt="Grand Theft Auto VI">
+            </div>
+            <div class="post">
+                <h2>Post Title 3</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum expedita sed distinctio.
+                    Laudantium labore quas sunt! Aliquam rerum, iure molestiae possimus exercitationem quae provident
+                    unde, laborum, totam ab obcaecati quisquam!
+                </p>
+            </div>
+            <div class="post">
+                <h2>Post Title 4</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum expedita sed distinctio.
+                    Laudantium labore quas sunt! Aliquam rerum, iure molestiae possimus exercitationem quae provident
+                    unde, laborum, totam ab obcaecati quisquam!
+                </p>
+            </div>
+            <div class="post">
+                <h2>Post Title 5</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum expedita sed distinctio.
+                    Laudantium labore quas sunt! Aliquam rerum, iure molestiae possimus exercitationem quae provident
+                    unde, laborum, totam ab obcaecati quisquam!
+                </p>
+            </div>
+            <div class="post">
+                <h2>Post Title 6</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum expedita sed distinctio.
+                    Laudantium labore quas sunt! Aliquam rerum, iure molestiae possimus exercitationem quae provident
+                    unde, laborum, totam ab obcaecati quisquam!
+                </p>
+            </div>
+            <div class="post">
+                <h2>Post Title 7</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum expedita sed distinctio.
+                    Laudantium labore quas sunt! Aliquam rerum, iure molestiae possimus exercitationem quae provident
+                    unde, laborum, totam ab obcaecati quisquam!
+                </p>
+            </div>
+            <div class="post">
+                <h2>Post Title 8</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum expedita sed distinctio.
+                    Laudantium labore quas sunt! Aliquam rerum, iure molestiae possimus exercitationem quae provident
+                    unde, laborum, totam ab obcaecati quisquam!
+                </p>
+            </div>
+        </div>
+
+        <!-- Right side (topics, suggestion) -->
+        <div class="topics">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="Search">
+            </div>
+            <div class="subscribe">
+                <h2>Subscribe to Premium</h2>
+                <p>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+                <button class="subscribe-button">Subscribe</button>
+            </div>
+            <div class="who-to-follow">
+                <h2>Who to follow</h2>
+                <div class="profiles">
+                    <div class="user-profile display-flex">
+                        <div class="avatar">EM</div>
+                        <div>
+                            <p class="name">Elon Musk</p>
+                            <p class="username">@elonmusk</p>
+                        </div>
+                    </div>
+                    <div class="user-profile display-flex">
+                        <div class="avatar">DT</div>
+                        <div>
+                            <p class="name">Donald Trump</p>
+                            <p class="username">@donaldtrump</p>
+                        </div>
+                    </div>
+                    <div class="user-profile display-flex">
+                        <div class="avatar">MB</div>
+                        <div>
+                            <p class="name">Mr Beast</p>
+                            <p class="username">@mrbeast</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trends">
+                <h2>Romania trends</h2>
+                <ul>
+                    <li>GPT-4o</li>
+                    <li>Barca</li>
+                    <li>ChatGPT</li>
+                    <li>Crypto</li>
+                    <li>NFTs</li>
+                    <li>NATO</li>
+                </ul>
+                <a href="#">Show More</a>
+            </div>
+            <div class="footer">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Ads Info</a>
+                <a href="#">More...</a>
+                <p>© 2024 X Corp.</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
